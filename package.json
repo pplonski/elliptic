@@ -1,5 +1,5 @@
 {
-  "name": "elliptic",
+  "name": "elliptic-with-secp112r2",
   "version": "6.5.4",
   "description": "EC cryptography",
   "main": "lib/elliptic.js",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:indutny/elliptic"
+    "url": "git@github.com:pplonski/elliptic"
   },
   "keywords": [
     "EC",

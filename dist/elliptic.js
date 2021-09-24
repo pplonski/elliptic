@@ -2006,6 +2006,21 @@ function defineCurve(name, options) {
   });
 }
 
+defineCurve('secp112r2', {
+  type: 'short',
+  prime: null,
+  p: 'db7c2abf62e35e668076bead208b',
+  a: '6127c24c05f38a0aaaf65c0ef02c',
+  b: '51def1815db5ed74fcc34c85d709',
+  n: '36df0aafd8b8d7597ca10520d04b',
+  hash: hash.sha1,
+  gRed: false,
+  g: [
+    '4ba30ab5e892b4e1649dd0928643', 'adcd46f5882e3747def36e956e97',
+  ],
+  h: '04',
+});
+
 defineCurve('p192', {
   type: 'short',
   prime: 'p192',
@@ -8849,7 +8864,7 @@ utils.encode = function encode(arr, enc) {
 
 },{}],35:[function(require,module,exports){
 module.exports={
-  "name": "elliptic",
+  "name": "elliptic-with-secp112r2",
   "version": "6.5.4",
   "description": "EC cryptography",
   "main": "lib/elliptic.js",
@@ -8865,7 +8880,7 @@ module.exports={
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:indutny/elliptic"
+    "url": "git@github.com:pplonski/elliptic"
   },
   "keywords": [
     "EC",
